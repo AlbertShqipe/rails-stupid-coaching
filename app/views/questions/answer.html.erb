@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="ask-card">
+    <%= params[:ask].to_s %>
+    <i>- You</i>
+  </div>
+
+  <div class="answer-card">
+    <%= @answer %>
+    <i>- Your Stupid Coach</i>
+  </div>
+  <div class="link-card">
+    <%= link_to "Ask a new question to your Stupid Coach", ask_path, id: "new" %>
+  </div>
+</div>
