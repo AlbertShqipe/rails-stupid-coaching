@@ -45,12 +45,12 @@ body {
 }
 
 #ask {
-  background-color: rgb(166, 188, 70);
+  background-color: rgb(151, 180, 25);
   padding: 5px 20px;
   color: rgb(255, 255, 255);
-  border: 2px solid grey;
+  border: 2px dotted red;
   border-radius: 10px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   transition: 0.2s ease-in-out;
   opacity: 0.7;
 }
@@ -70,7 +70,8 @@ body {
 .ask-card {
   width: 400px;
   padding : 0px 10px;
-  border-left: 10px solid rgba(30, 14, 249, 0.434);
+  border-left: 3.4px solid rgba(124, 123, 143, 0.434);
+  margin-left: 3.4px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -79,7 +80,7 @@ body {
 .answer-card {
   width: 400px;
   padding : 0px 10px;
-  border-left: 10px solid rgba(255, 0, 0, 0.434);
+  border-left: 10px double rgba(124, 123, 143, 0.434);
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
